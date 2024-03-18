@@ -14,8 +14,9 @@ The application must use the following library/framework to build:
 - Redux or related libraries (e.g., @reduxjs/toolkit) if you need a state management solution
 - Typescript
 
-The following library/framework is suggested but optional; feel free to use another replacement: Webpack
+The following library/framework is suggested but optional; feel free to use another replacement:
 
+- Webpack
 - Material-UI
 - Other libraries (e.g., UI frameworks) are free to use.
 

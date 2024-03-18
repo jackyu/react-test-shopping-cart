@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "name": "今天小點",
+    "children": [
+      {
+        "id": 11,
+        "name": "黃媽媽飯糰 - 甜飯糰",
+        "image": "./images/food_11.png",
+        "description": "甜飯糰、花生粉.油條",
+        "price": 45
+      },
+      {
+        "id": 12,
+        "name": "黃媽媽飯糰 - 甜飯糰",
+        "image": "./images/food_12.png",
+        "description": "甜飯糰、花生粉.油條",
+        "price": 55
+      },
+      {
+        "id": 13,
+        "name": "黃媽媽飯糰 - 焢肉飯糰",
+        "image": "./images/food_13.png",
+        "description": "肉鬆,辣蘿蔔,酸菜,焢肉油條",
+        "price": 65
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "今天想健康",
+    "children": [
+      {
+        "id": 21,
+        "name": "沃可奧 - 台式蒜泥豬梅花",
+        "image": "./images/food_21.png",
+        "description": "豬梅花、新鮮時蔬、水煮蛋、健康紫米飯",
+        "price": 125
+      },
+      {
+        "id": 22,
+        "name": "沃可奧 - 蔥鹽雞胸",
+        "image": "./images/food_22.png",
+        "description": "蔥鹽雞胸、新鮮時蔬、水煮蛋、健康紫米飯",
+        "price": 130
+      },
+      {
+        "id": 23,
+        "name": "沃可奧 - 滷香雞腿餐",
+        "image": "./images/food_23.png",
+        "description": "滷香雞腿、新鮮時蔬、水煮蛋、健康紫米飯",
+        "price": 140
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "今天想特別",
+    "children": [
+      {
+        "id": 31,
+        "name": "溫州鮮餛飩 - 菜肉大餛飩麵",
+        "image": "./images/food_31.png",
+        "description": "蔥花、蛋皮、紫菜、榨菜",
+        "price": 90
+      },
+      {
+        "id": 32,
+        "name": "溫州鮮餛飩 - 麻醬紅油炒手麵",
+        "image": "./images/food_32.png",
+        "description": "芝麻醬、酸甜醬、少許紅油、蔥花",
+        "price": 100
+      },
+      {
+        "id": 33,
+        "name": "泰融雲泰小館 - 泰式椰汁雞肉飯",
+        "image": "./images/food_33.png",
+        "description": "泰式椰汁雞肉、白飯、三樣配菜",
+        "price": 110
+      },
+      {
+        "id": 34,
+        "name": "泰融雲泰小館 - 雲式椒麻雞腿飯",
+        "image": "./images/food_34.png",
+        "description": "泰式椰汁雞肉、白飯、三樣配菜",
+        "price": 140
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "本週飲料",
+    "children": [
+      {
+        "id": 41,
+        "name": "Mr.wish - 光果茶(L)",
+        "image": "./images/food_41.png",
+        "description": "光果茶(百香、鳳梨、檸檬)",
+        "price": 70
+      },
+      {
+        "id": 42,
+        "name": "Mr.wish - 荔枝紅茶(L)",
+        "image": "./images/food_42.png",
+        "description": "荔枝紅茶",
+        "price": 50
+      },
+      {
+        "id": 43,
+        "name": "茶奶士多 - 香妃那提(L)",
+        "image": "./images/food_43.png",
+        "description": "香妃那提(L)",
+        "price": 65
+      },
+      {
+        "id": 44,
+        "name": "茶奶士多 - 芝士屋瓦紅(L)",
+        "image": "./images/food_44.png",
+        "description": "(建議甜度:微糖)(最多三種料)(芝士算一種料)天然起士製成奶蓋鋪上果香紅茶 唇齒留香",
+        "price": 70
+      }
+    ]
+  }
+]
