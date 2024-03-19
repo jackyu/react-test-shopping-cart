@@ -1,10 +1,10 @@
-import { useShoppingCartContext } from "./use-shopping-cart-context";
 import { ICartProduct, ICartTotal } from "~/types";
+import { useShoppingCartContext } from "./use-shopping-cart-context";
 
 const DEFAULT_INITIALIZE = 0;
 
 const useShoppingCartTotal = () => {
-  const { setTotal } = useShoppingCartContext();
+  const { total, setTotal } = useShoppingCartContext();
 
   const updateShoppingCartTotal = (products: ICartProduct[]) => {
     // 數量
@@ -28,6 +28,7 @@ const useShoppingCartTotal = () => {
   }
 
   return {
+    total,
     updateShoppingCartTotal,
   }
 }

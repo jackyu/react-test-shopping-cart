@@ -4,7 +4,7 @@
     "categoryId": 1,
     "name": "黃媽媽飯糰 - 甜飯糰",
     "image": "/assets/images/food_11.png",
-    "description": "甜飯糰、花生粉.油條",
+    "description": "甜飯糰、花生粉、油條",
     "price": 45
   },
   {
@@ -12,7 +12,7 @@
     "categoryId": 1,
     "name": "黃媽媽飯糰 - 甜飯糰",
     "image": "/assets/images/food_12.png",
-    "description": "甜飯糰、花生粉.油條",
+    "description": "甜飯糰、花生粉、油條",
     "price": 55
   },
   {
@@ -20,7 +20,7 @@
     "categoryId": 1,
     "name": "黃媽媽飯糰 - 焢肉飯糰",
     "image": "/assets/images/food_13.png",
-    "description": "肉鬆,辣蘿蔔,酸菜,焢肉油條",
+    "description": "肉鬆、辣蘿蔔、酸菜、焢肉油條",
     "price": 65
   },
   {
@@ -108,7 +108,7 @@
     "categoryId": 4,
     "name": "茶奶士多 - 芝士屋瓦紅(L)",
     "image": "/assets/images/food_44.png",
-    "description": "(建議甜度:微糖)(最多三種料)(芝士算一種料)天然起士製成奶蓋鋪上果香紅茶 唇齒留香",
+    "description": "天然起士製成奶蓋鋪上果香紅茶 唇齒留香(建議甜度:微糖)",
     "price": 70
   }
 ]

@@ -1,9 +1,9 @@
 import type { FC } from 'react';
-import products from '~/data/mock-products.json';
-import type { IProduct } from '~/types';
-import ProductCard from '~/components/atoms/ProductCard';
 import { useMemo } from 'react';
+import ProductCard from '~/components/molecules/ProductCard';
+import products from '~/data/mock-products.json';
 import { useCategoryContext } from '~/hooks/use-category-context';
+import type { IProduct } from '~/types';
 
 const ProductList: FC = () => {
   const { categoryId } = useCategoryContext();
