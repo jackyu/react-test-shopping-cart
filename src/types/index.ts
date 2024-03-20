@@ -20,3 +20,11 @@ export interface ICartTotal {
   productQuantity: number;
   totalPrice: number;
 }
+
+export interface IOrder {
+  id: number;
+  createdDate: Date;
+  products: ICartProduct[];
+  productQuantity: number;
+  totalPrice: number;
+}

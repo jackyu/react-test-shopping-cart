@@ -69,6 +69,13 @@ const useShoppingCart = () => {
     updateShoppingCartTotal(updatedProducts);
   }
 
+  const clean = (): void => {
+    const empty: ICartProduct[] = [];
+
+    setProducts(empty);
+    updateShoppingCartTotal(empty);
+  }
+
   return {
     isOpen,
     openCart,
@@ -80,6 +87,7 @@ const useShoppingCart = () => {
     removeProduct,
     increaseProductQuantity,
     decreaseProductQuantity,
+    clean,
   }
 }
 

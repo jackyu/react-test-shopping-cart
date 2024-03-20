@@ -39,6 +39,7 @@ const ProductCard: FC<IProps> = ({ item }): JSX.Element => {
         <div className="flex items-center justify-between">
           <span className="font-bold text-lg">${formatCurrency(Number(price))}</span>
           <button
+            type="button"
             className={twMerge(
               'font-bold py-2 px-4 rounded min-w-[120px]',
               isAlreadyInCart ? 'bg-blue-300 hover:bg-blue-300 text-gray-500' : 'bg-blue-500 hover:bg-blue-600 text-white'

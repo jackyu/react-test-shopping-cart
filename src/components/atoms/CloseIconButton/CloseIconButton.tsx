@@ -3,12 +3,13 @@ import { memo } from 'react';
 
 interface IProps {
   size?: number;
+  title?: string;
   onClick?(): void;
 }
 
-const CloseIconButton: FC<IProps> = ({ size = 32, onClick = () => {} }) => {
+const CloseIconButton: FC<IProps> = ({ size = 32, title = '', onClick = () => {} }) => {
   return (
-    <button onClick={onClick}>
+    <button type="button" onClick={onClick} title={title}>
       <svg
         aria-hidden="true"
         focusable="false"

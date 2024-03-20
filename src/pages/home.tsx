@@ -11,11 +11,13 @@ const Home: FC = () => {
 
   return (
     <main className="container m-auto my-0 p-4 relative">
-      <CategoryProvider>
-        <Navigation data={categories} />
-        <ProductList />
+      <>
+        <CategoryProvider>
+          <Navigation data={categories} />
+          <ProductList />
+        </CategoryProvider>
         {isOpen && <ShoppingCart />}
-      </CategoryProvider>
+      </>
     </main>
   );
 }

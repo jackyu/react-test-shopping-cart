@@ -40,6 +40,7 @@ const ShoppingCartList: FC = () => {
           <td className="py-4">
             <div className="flex items-center">
               <button
+                type="button"
                 className="border rounded-md py-2 px-4 mr-2"
                 onClick={onClickDecreaseQuantity}
               >
@@ -47,6 +48,7 @@ const ShoppingCartList: FC = () => {
               </button>
               <span className="text-center w-8">{productQuantity}</span>
               <button
+                type="button"
                 className="border rounded-md py-2 px-4 ml-2"
                 onClick={onClickIncreaseQuantity}
               >
@@ -56,7 +58,7 @@ const ShoppingCartList: FC = () => {
           </td>
           <td className="py-4 min-w-16">${productSum}</td>
           <td className="py-4 min-w-4">
-            <CloseIconButton onClick={onClickRemoveProduct} size={16} />
+            <CloseIconButton onClick={onClickRemoveProduct} size={16} title="移除商品" />
           </td>
         </tr>
       );

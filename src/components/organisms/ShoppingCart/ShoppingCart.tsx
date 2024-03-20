@@ -16,7 +16,7 @@ const ShoppingCart: FC = () => {
     <div className="bg-white w-full h-full py-4 px-0 absolute top-0 left-0 z-50">
       <div className="mx-auto px-0">
         <div className="flex justify-between">
-          <h2 className="text-2xl font-semibold mb-4">購物車({total.productQuantity})</h2>
+          <h2 className="text-2xl font-semibold mb-4">購物車，共計 {total.productQuantity} 項商品</h2>
           <CloseIconButton onClick={onClickCloseShoppingCart} />
         </div>
         <div className="flex flex-row gap-4">
