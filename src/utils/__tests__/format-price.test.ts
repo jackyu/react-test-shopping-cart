@@ -1,4 +1,5 @@
-import { formatCurrency } from './format-price';
+import '@testing-library/jest-dom';
+import { formatCurrency } from '../format-price';
 
 describe('formatCurrency', () => {
   it('should format the number with commas', () => {
@@ -17,5 +18,17 @@ describe('formatCurrency', () => {
     const number = 1234.56;
     const formattedNumber = formatCurrency(number);
     expect(formattedNumber).toBe('1,234.56');
+  });
+
+  it('should handle negative numbers', () => {
+    const number = -1234.56;
+    const formattedNumber = formatCurrency(number);
+    expect(formattedNumber).toBe('-1,234.56');
+  });
+
+  it('should handle zero', () => {
+    const number = 0;
+    const formattedNumber = formatCurrency(number);
+    expect(formattedNumber).toBe('0');
   });
 });
