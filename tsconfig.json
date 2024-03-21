@@ -5,7 +5,10 @@
     "lib": ["es2020", "dom", "DOM.Iterable"],
     "module": "esnext",
     "skipLibCheck": true,
+
+    /* Jest unit test  */
     "esModuleInterop": true,
+    "types": ["node", "jest", "@testing-library/jest-dom"],
 
     /* Bundler mode */
     "moduleResolution": "bundler",

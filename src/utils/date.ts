@@ -9,7 +9,7 @@
 
 type timestampFormatProps = (timestamp?: number, format?: string, delimiter?: string) => string | null;
 
-export const timestampFormat: timestampFormatProps = (timestamp, format = 'YYYYMMDD MMSS', delimiter = '/') => {
+export const timestampFormat: timestampFormatProps = (timestamp, format = '', delimiter = '/') => {
   if (!timestamp) return null;
 
   const msTimestamp = timestamp;

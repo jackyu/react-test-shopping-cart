@@ -1,5 +1,7 @@
 export function appendZero(num: number): string {
-  return `0${num}`.slice(-2);
+  const sign = num < 0 ? '-' : '';
+
+  return `${sign}${`0${Math.abs(num)}`.slice(-2)}`;
 }
 
 export function pad(n: number, width: number, z: string): string {

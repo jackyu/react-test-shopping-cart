@@ -47,7 +47,7 @@ const OrderList: FC = () => {
             <div className="flex flex-row justify-between items-end w-full">
               <div className="flex justify-start item-start space-y-2 flex-col">
                 <h2 className="text-2xl text-black font-semibold leading-7">訂單編號: {pad(id, 3, '0')}</h2>
-                <p className="text-base text-gray-600 font-medium leading-6">下單日期: {timestampFormat(createdDate.getTime())}</p>
+                <p className="text-base text-gray-600 font-medium leading-6">下單日期: {timestampFormat(createdDate.getTime(), 'YYYYMMDD MMSS')}</p>
               </div>
               <p className="text-lg text-gray-600 leading-6">總計: 共 <span className="text-2xl text-black font-semibold leading-6">{productQuantity}</span> 件商品 / <span className="text-2xl text-black font-semibold leading-6">${formatCurrency(totalPrice)}</span> 元</p>
             </div>

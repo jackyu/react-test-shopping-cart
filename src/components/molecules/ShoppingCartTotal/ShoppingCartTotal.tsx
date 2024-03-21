@@ -7,7 +7,7 @@ import { formatCurrency } from '~/utils/format-price';
 
 const ShoppingCartTotal: FC = () => {
   const { total } = useShoppingCartTotal();
-  const { products, closeCart } = useShoppingCart();
+  const { products, closeCart, clean } = useShoppingCart();
   const { createOrder } = useOrder();
 
   const onClickCloseShoppingCart = () => closeCart();
@@ -16,6 +16,7 @@ const ShoppingCartTotal: FC = () => {
     if (!products || products.length === 0) return;
 
     createOrder(products);
+    clean();
     closeCart();
   }
 
